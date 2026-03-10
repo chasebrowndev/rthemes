@@ -10,7 +10,7 @@ depends=('hyprland' 'waybar' 'swww')
 source=('themeset.sh' 'themes.tar' 'LICENSE.txt')
 sha256sums=('03207157967be6e6dfb3d42befdad48c07edfca6c7643ed1f11b6dc265da849d' \
             '5a16053eafc08725e50d31e2d6b48d2d914e7cbf0c760fded7c88203436febfc' \
-            '11968ba3b6897b3c1046bebc8f09bda5335f30131757db4e9998ee571ef46fc7')
+            '03f461065a030a27c1993bb01fc5db4897720097f04c603994c06e7b0fe5f36c')
 
 package() {
     install -Dm755 "$srcdir/themeset.sh" "$pkgdir/usr/bin/themeset"
