@@ -16,6 +16,10 @@ Apply fully configured themes — including Hyprland config, Waybar style, and w
 
 ## Installation
 
+#
+# NOT AVAILABLE IN THE AUR YET, THE FOLLOWING IS PLACEHOLDER TEXT:
+#
+
 ### AUR (recommended)
 ```bash
 yay -S rthemes
