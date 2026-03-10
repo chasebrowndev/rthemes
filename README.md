@@ -27,13 +27,12 @@ yay -S rthemes
 paru -S rthemes
 ```
 
-### Manual
+### Manual (base-devel needed)
 ```bash
-git clone https://github.com/YOUR_USERNAME/rthemes
+git clone https://github.com/chasebrowndev/rthemes
 cd rthemes
-install -Dm755 themeset.sh /usr/bin/themeset
-mkdir -p /usr/share/themeset
-cp -r themes/* /usr/share/themeset/
+makepkg -si
+cd ..
 ```
 
 ---
@@ -69,10 +68,10 @@ themeset --list
 
 | Theme | Description |
 |---|---|
-| `berserk` | Dark, gritty tones inspired by the manga |
-| `cyberpunk` | Neon-lit night city aesthetic |
-| `eldensote` | Earthy fantasy palette |
-| `kaneki` | Clean monochrome with sharp accents |
+| `berserk` | Black + Red, dark w/round edges. Single panel in black/red as wallpaper. |
+| `cyberpunk` | Black + Red, bright w/sharp edges. CYBERPUNK2077 on black background in red text wallpaper. |
+| `eldensote` | ELDENRING Shadow of the Erdtree themed. Scadutree wallpaper. |
+| `kaneki` | Themed after the character 'Kaneki' from tokyo ghoul. Uses a screencapture from :re for the wallpaper |
 
 ---
 
@@ -87,7 +86,7 @@ Create a folder under `~/.config/themes/<your-theme-name>/` with any of the foll
 | `waybar.jsonc` | Waybar layout config |
 | `wallpaper.jpg` (or `.png`, `.webp`) | Wallpaper image |
 
-All files are optional — only present ones will be applied.
+All files are optional — only present ones will be applied. (All are intended, errors may occure, I haven't tested without all of them.)
 
 User themes in `~/.config/themes/` take priority over installed themes, so you can override any bundled theme by creating a folder with the same name.
 
@@ -95,7 +94,7 @@ User themes in `~/.config/themes/` take priority over installed themes, so you c
 
 ## License
 
-Free to use, modify, and distribute — must always remain free of charge. See [LICENSE](LICENSE.txt).
+Free to use, modify, and distribute — must always remain free of charge. See [LICENSE](LICENSE.txt).[](url)
 
 ---
 
