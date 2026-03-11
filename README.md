@@ -29,7 +29,7 @@ paru -S rthemes
 
 ### Manual (base-devel needed)
 ```bash
-git clone https://github.com/chasebrowndev/rthemes
+git clone https://github.com/chasebrowndev/rthemes.git
 cd rthemes
 makepkg -si
 cd ..
