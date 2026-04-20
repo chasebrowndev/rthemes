@@ -1,5 +1,10 @@
 # rthemes
 
+#
+# THIS IS OUTDATED. THIS IS BUILT TO USE SWWW WHICH HAS BEEN REPLACED BY AWWW. 
+# I MAY GET AROUND TO FIXING IT EVENTUALLY, I MAY NOT.
+#
+
 Hyprland + Waybar theme ricing and swapping made easy.
 
 Apply fully configured themes — including Hyprland config, Waybar style, and wallpaper — with a single command.
